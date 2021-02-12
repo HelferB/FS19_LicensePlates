@@ -8,9 +8,15 @@ but not all vehicles, since some do not have a good position for a license plate
 Additionally some vehicles from the modhub are supported,
 but if you are a modder,
 please follow the instructions below on how to add license plates to your vehicle.
+Note: it is not necessary to add any scripts,
+a simple configuration of the vehicle xml file is sufficient!
 
 A german version is at the bottom of the file.
+
 Eine deutsche Version ist weiter unten.
+
+Es ist nicht notwendig mit Skripten zu arbeiten,
+es genügt eine Erweiterung in der XML für das Fahrzeug!
 
 The license plate settings of a vehicle mod overwrite the default settings of this mod.
 
@@ -33,9 +39,17 @@ A short explanation of the attributes:
 If not present the text of a new license plate on this vehicle is empty.
 If present the license plate is visible at begin.
 
-*defaultSymbolColor* is the default color for the license plates and optional.
+*defaultSymbolColor* is the default color for the symbols on the license plates and optional.
 If not preset the symbol color is black.
 Possible values are black, green and red.
+
+Since Version 1.1.0.0: *defaultBackgroundColor* is the default color for the background of the license plates and optional.
+If not preset the background color is white.
+Possible values are white and yellow.
+
+Since Version 1.1.0.0: *defaultCountryCode* is the default country code.
+If not present D (Germany) is used.
+Possible values are AL, A, BY, B, BIH, BG, HR, CY, CZ, DK, EST, FIN, F, D, GR, H, IS, IRL, I, LV, LT, L, M, MD, MNE, NL, NMK, N, PL, P, RO, SRB, SK, SLO, E, S, CH, UA and GB.
 
 For a single license plate the possible attributes are:
 
@@ -52,6 +66,7 @@ If false or not present the normal plate is used.
 
 *hiddenNode* is a node to hide when the license plate is visible.
 It is made visible again when the license plate is made invisible.
+This is a good option to add a default plate when this mod is not loaded.
 
 *linkNode* is the node to attach the license plate physically to and optional.
 If the license plate should be attached to a surface that may move,
@@ -105,9 +120,18 @@ Eine kurze Erklärung für die Attribute:
 Wenn nicht angegeben ist der Text zunächst leer.
 Wenn angegeben ist das Nummernschild von Beginn sichtbar.
 
-*defaultSymbolColor* ist die optionale Startfarbe.
+*defaultSymbolColor* ist die optionale Standardfarbe für die Zeichen.
 Wenn nicht angegeben ist die Farbe black (schwarz).
 Mögliche Werte sind black, green und red.
+
+Neu ab Version 1.1.0.0: *defaultBackgroundColor* ist die optionale Standardfarbe für den Hintergrund.
+Wenn nicht angegeben ist die Farbe white (weiß).
+Mögliche Werte sind white und yellow.
+
+Neu ab Version 1.1.0.0: *defaultCountryCode* ist das standardmäßig ausgewählte Landeszeichen.
+Wenn nicht angegeben wird D (Deutschland) genutzt.
+If not present Germany is used.
+Mögliche Werte sind AL, A, BY, B, BIH, BG, HR, CY, CZ, DK, EST, FIN, F, D, GR, H, IS, IRL, I, LV, LT, L, M, MD, MNE, NL, NMK, N, PL, P, RO, SRB, SK, SLO, E, S, CH, UA und GB.
 
 Für jedes einzelne Nummernschild gibt es die folgenden Attribute:
 
@@ -127,6 +151,8 @@ Wenn nicht angegeben wird das normale Nummernschild genutzt.
 *hiddenNode* ist eine Node,
 die versteckt werden soll,
 wenn das Nummernschild sichtbar ist.
+Dies ist eine gute Möglichkeit um ein Platzhalterkennzeichen zu nutzen,
+wenn diese Mod nicht geladen ist.
 
 *linkNode* ist die Node,
 an dem das Nummernschild angefügt wird.
