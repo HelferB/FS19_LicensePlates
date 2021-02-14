@@ -27,7 +27,7 @@ A useful shortcut is `CTRL + B` to place a node directly on another.
 Now open the vehicle xml file and add the following inside the `<vehicle>` tag:
 
 ```
-	<licensePlates defaultText="1A MOD" defaultSymbolColor="green">
+	<licensePlates defaultText="1A MOD" defaultSymbolColor="green" defaultBackgroundColor="white" defaultCountryCode="IRL">
 		<licensePlate translation="0 3.14 4.2" rotation="10 180 0" isSmall="true" hiddenNode="somePlaceholderDecal" linkNode="nodename"/>
 	</licensePlates>
 
@@ -109,7 +109,7 @@ Mit der Tastenkombination `STRG + B` kann ein Objekt direkt an einem anderen pla
 Nun öffne die XML für dein Fahrzeug und füge den folgenden Eintag im `<vehicle>` Tag hinzu:
 
 ```
-	<licensePlates defaultText="1A MOD" defaultSymbolColor="green">
+	<licensePlates defaultText="1A MOD" defaultSymbolColor="green" defaultBackgroundColor="white" defaultCountryCode="IRL">
 		<licensePlate translation="0 3.14 4.2" rotation="10 180 0" isSmall="true" hiddenNode="somePlaceholderDecal" linkNode="nodename"/>
 	</licensePlates>
 
