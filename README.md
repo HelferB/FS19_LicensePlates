@@ -45,7 +45,7 @@ Possible values are black, green and red.
 
 Since Version 1.1.0.0: *defaultBackgroundColor* is the default color for the background of the license plates and optional.
 If not preset the background color is white.
-Possible values are white and yellow.
+Possible values are white, yellow, red and green.
 
 Since Version 1.1.0.0: *defaultCountryCode* is the default country code.
 If not present D (Germany) is used.
@@ -126,7 +126,7 @@ Mögliche Werte sind black, green und red.
 
 Neu ab Version 1.1.0.0: *defaultBackgroundColor* ist die optionale Standardfarbe für den Hintergrund.
 Wenn nicht angegeben ist die Farbe white (weiß).
-Mögliche Werte sind white und yellow.
+Mögliche Werte sind white, yellow, red und green.
 
 Neu ab Version 1.1.0.0: *defaultCountryCode* ist das standardmäßig ausgewählte Landeszeichen.
 Wenn nicht angegeben wird D (Deutschland) genutzt.
